@@ -1,0 +1,40 @@
+{
+    "background": {
+        "service_worker": "background.js"
+      },
+    "name": "focuse mode",
+    "version": "1.0.0",
+    "description": "for learning",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+    "author": "Samir Gasimov",
+    "action":{
+        
+        "default_title": "focus mode",
+        "default_icon":{
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
+        }
+    },
+    "icons":{
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+B",
+            "mac": "Command+B"
+          }
+        }
+    }
+    
+}
